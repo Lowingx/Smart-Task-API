@@ -85,13 +85,15 @@ smart-task-api/
 ```
 
 ### Installation & Setup
-**1. Clone repository**
+
+```
+1. Clone repository
 
 git clone https://github.com/your-username/smart-task-api.git
 
 cd smart-task-api
 
-**2. Create virtual environment**
+2. Create virtual environment
 
 python -m venv venv
 
@@ -99,13 +101,14 @@ source venv/bin/activate  # Linux/Mac
 
 venv\Scripts\activate     # Windows
 
-**3. Install dependencies**
+3. Install dependencies
 
 pip install -r requirements.txt
 
-**4. Run server**
+4. Run server
 
 uvicorn app.main:app --reload
+```
 
 ---
 
